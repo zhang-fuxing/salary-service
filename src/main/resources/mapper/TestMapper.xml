@@ -3,7 +3,7 @@
 <mapper namespace="com.zhangfx.salary.mapper.TestMapper">
 
 
-    <select id="getListById" resultType="com.zhangfx.salary.model.Test" parameterType="integer">
+    <select id="getListById" resultType="com.zhangfx.salary.model.pojo.Customer" parameterType="integer">
         select * from zhangfx.test where id=#{id};
     </select>
 </mapper>

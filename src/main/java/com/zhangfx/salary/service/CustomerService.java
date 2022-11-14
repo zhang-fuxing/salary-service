@@ -1,6 +1,6 @@
 package com.zhangfx.salary.service;
 
-import com.zhangfx.salary.model.Test;
+import com.zhangfx.salary.model.pojo.Customer;
 
 import java.util.List;
 
@@ -12,6 +12,6 @@ import java.util.List;
  */
 public interface CustomerService {
 
-    List<Test> getAll();
+    List<Customer> getAll();
 
 }

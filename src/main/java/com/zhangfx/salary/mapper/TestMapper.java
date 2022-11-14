@@ -1,7 +1,7 @@
 package com.zhangfx.salary.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zhangfx.salary.model.Test;
+import com.zhangfx.salary.model.pojo.Customer;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.List;
  * @email zhangfuxing1010@163.com
  */
 @Mapper
-public interface TestMapper extends BaseMapper<Test> {
+public interface TestMapper extends BaseMapper<Customer> {
 
-    List<Test> getListById(Integer id);
+    List<Customer> getListById(Integer id);
 }
